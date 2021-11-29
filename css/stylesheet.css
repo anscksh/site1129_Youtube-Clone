@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.fa {
+    color: darkslategray;
+}
+
+.header {
+    width: 100vw;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.logo {
+    width: 12.5%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    background-color: orange;
+    background-image: url(/img/logo.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fa-bars:hover {
+    cursor: pointer;
+}
+
+.search_bar {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.search {
+    width: 80%;
+    height: 70%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightslategray;
+}
+
+.search:hover {
+    border: 1px solid blue;
+}
+
+input {
+    width: 95%;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 0.7rem;
+}
+
+.fa-keyboard-o:hover {
+    color: black;
+}
+
+.bt_search {
+    width: 8%;
+    height: 70%;
+}
+
+.bt_search:hover {
+    cursor: pointer;
+}
+
+.fa-microphone {
+    margin-left: 3%;
+    padding: 1% 1.5%;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+.fa-microphone:hover {
+    background-color: lightgray;
+}
+
+.account {
+    width: 12.5%;
+    height: 100%;
+    display: flex;
+    float: right;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.apps {
+    width: 40px;
+    height: 40px;
+    color: darkslategray;
+    border-radius: 20px;
+}
+
+.apps:hover {
+    background-color: lightgray;
+}
+
+
+.container {
+    width: 100vw;
+    height: 94vh;
+    display: flex;
+    background-color: yellow;
+}
+
+.side {
+    width: 12.5%;
+    height: 100%;
+    background-color: green;
+}
+
+.main {
+    width: 87.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+}
+
+.top {
+    width: 100%;
+    height: 6%;
+    background-color: gray;
+}
+
+.ads {
+    width: 100%;
+    height: 30%;
+    background-color: magenta;
+}
+
+.contents {
+    width: 90%;
+    height: 66%;
+    background-color: lightgray;
+}
