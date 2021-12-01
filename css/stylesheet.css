@@ -240,7 +240,7 @@ input::placeholder {
     flex-wrap: wrap;
 }
 
-.card {
+/* .card {
     width: 25%;
     height: 50%;
     padding: 1%;
@@ -278,4 +278,4 @@ input::placeholder {
 
 .text p {
     font-size: large;
-}
+} */
